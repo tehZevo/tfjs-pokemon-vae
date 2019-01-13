@@ -1,0 +1,28 @@
+<html>
+<head>
+  <style type="text/css">
+  canvas {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+</style>
+</head>
+<body>
+  <canvas id="canvas" width="40" height="30" style="width:200; height:150"> </canvas>
+  <p/>
+  <button id="verify" type="button">Verify</button>
+  <button id="generate" type="button">Generate</button>
+  <button id="pause" type="button">Pause</button>
+  <button id="lrDown" type="button">&lt;</button>
+  <button id="lrUp" type="button">&gt;</button>
+  <span id="lr"></span>
+  <p/>
+  <textarea id="latent"></textarea>
+  <div id="sliders">
+  </div>
+  <canvas id="map" width="600" height="600"></canvas>
+  <script src="app.js"> </script>
+</body>
+</html>

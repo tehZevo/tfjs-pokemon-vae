@@ -1,0 +1,10 @@
+{
+  "main": "main.js",
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.14.2",
+    "jimp": "^0.2.28"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}
